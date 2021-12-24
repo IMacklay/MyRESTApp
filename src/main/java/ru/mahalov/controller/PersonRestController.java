@@ -17,7 +17,7 @@ public class PersonRestController {
     private final PersonService personService;
 
     @Autowired
-    PersonRestController(@Qualifier("personServiceDBImpl") PersonService personService){
+    PersonRestController(@Qualifier("personServiceJPAImpl") PersonService personService){
         this.personService = personService;
     }
 

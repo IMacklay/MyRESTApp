@@ -10,7 +10,7 @@ import java.util.List;
 
 import static java.lang.Class.forName;
 
-@Component
+//@Component
 public class PersonServiceDBImpl implements PersonService {
 
     private final JdbcTemplate jdbcTemplate;

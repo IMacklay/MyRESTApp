@@ -19,7 +19,7 @@ public class PersonHttpController {
     private final PersonService personService;
 
     @Autowired
-    PersonHttpController(@Qualifier("personServiceDBImpl") PersonService personService){
+    PersonHttpController(@Qualifier("personServiceJPAImpl") PersonService personService){
         this.personService = personService;
     }
 
